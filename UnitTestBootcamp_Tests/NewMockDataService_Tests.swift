@@ -99,7 +99,6 @@ final class NewMockDataService_Tests: XCTestCase {
             }
             .store(in: &cancellables)
         
-        
         wait(for: [expectation, expectation2], timeout: 5)
     }
 }
